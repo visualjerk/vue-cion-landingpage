@@ -59,33 +59,39 @@
                 tag="h3">
                 Basic<br>Components
               </ds-heading>
-              Includes lots of basic components to help you move faster.
+              Includes some basic components to help you get started.
             </ds-card>
           </ds-flex-item>
         </ds-flex>
       </ds-space>
     </ds-section>
     <ds-section>
-      <ds-heading
-        tag="h2"
-        size="h1">First steps</ds-heading>
-      <ds-space>
-        <ds-list
-          ordered>
-          <ds-list-item>
-            Download the boilerplate<br>
-            <ds-code>git clone https://github.com/visualjerk/vue-cion-design-system.git your-system-name</ds-code>
-          </ds-list-item>
-          <ds-list-item>
-            Install the dependencies<br>
-            <ds-code>cd your-system-name && yarn install</ds-code>
-          </ds-list-item>
-          <ds-list-item>
-            Start development server<br>
-            <ds-code>yarn dev</ds-code>
-          </ds-list-item>
-        </ds-list>
-      </ds-space>
+      <ds-container width="large">
+        <ds-heading tag="h2">First steps</ds-heading>
+        <ds-space>
+          <ds-list
+            ordered>
+            <ds-list-item>
+              <ds-space margin-bottom="x-small">
+                Download the boilerplate
+              </ds-space>
+              <ds-code>git clone https://github.com/visualjerk/vue-cion-design-system.git your-system-name</ds-code>
+            </ds-list-item>
+            <ds-list-item>
+              <ds-space margin-bottom="x-small">
+                Install the dependencies
+              </ds-space>
+              <ds-code>cd your-system-name && yarn install</ds-code>
+            </ds-list-item>
+            <ds-list-item>
+              <ds-space margin-bottom="x-small">
+                Start development server
+              </ds-space>
+              <ds-code>yarn dev</ds-code>
+            </ds-list-item>
+          </ds-list>
+        </ds-space>
+      </ds-container>
     </ds-section>
   </div>
 </template>

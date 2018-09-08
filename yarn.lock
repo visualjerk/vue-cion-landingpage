@@ -6570,8 +6570,9 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-"vue-cion-design-system@file:../..":
+"vue-cion-design-system@git+https://github.com/visualjerk/vue-cion-design-system.git":
   version "1.0.0"
+  resolved "git+https://github.com/visualjerk/vue-cion-design-system.git#99d2c82ca485d5ff7a717f31061e1c02b5d62bba"
   dependencies:
     vue "^2.5.17"
 

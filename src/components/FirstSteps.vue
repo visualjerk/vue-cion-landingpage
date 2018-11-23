@@ -33,8 +33,8 @@
         </ds-space>
         <ds-heading tag="h3">Design Tokens</ds-heading>
         <ds-text size="large">Design Tokens define the look and feel of your design system at the most basic level.</ds-text>
-        <ds-text>To get a grasp of what a Design Token is, open up <ds-code inline>src/system/tokens/font-size.yml</ds-code> in your editor.</ds-text>
-        <ds-text>As you can see, every font-size value is represented by a meaningful name. Instead of hardcoding values in your codebase you can now just refer to the name of each token.</ds-text>
+        <ds-text>To get a grasp of what Design Token are, open up <ds-code inline>src/system/tokens/font-size.yml</ds-code> in your editor.</ds-text>
+        <ds-text>As you can see, every font-size value is represented by a meaningful name. Instead of hardcoding values in your codebase you can just refer to the name of each token.</ds-text>
         <ds-text>Your styleguide will automatically list these tokens in the section "Design Tokens":</ds-text>
         <ds-space margin-bottom="base">
           <img 
@@ -48,9 +48,9 @@
           href="http://hslpicker.com/" 
           target="_blank">HSL Color Picker</a>.</ds-text>
         <ds-heading tag="h4">Color hues</ds-heading>
-        <ds-text>In order to keep the color tokens file DRY, the base hues are listed under "aliases". Each alias stands for hue + saturation. Try to adjust the value for "teal" and see how that affects the styleguide.</ds-text>
+        <ds-text>In order to keep the color token file DRY, base hues are listed under "aliases". Each alias stands for hue + saturation. Try to adjust the value for "teal" and see how that affects the styleguide.</ds-text>
         <ds-heading tag="h4">Color tokens</ds-heading>
-        <ds-text>The actual color tokens are listed under "props". Try changing the "color-primary" and its variations to use blue instead of teal and see how the effect on the styleguide.</ds-text>
+        <ds-text>The actual color tokens are listed under "props". Try changing the "color-primary" and its variations to use blue instead of teal and see the effect on the styleguide.</ds-text>
         <ds-heading tag="h3">Creating your design</ds-heading>
         <ds-space
           margin-top="base"

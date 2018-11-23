@@ -1,6 +1,8 @@
 <template>
   <div>
-    <ds-section primary>
+    <ds-section
+      primary
+      id="usage">
       <ds-container width="large">
         <ds-heading tag="h2">Usage</ds-heading>
       </ds-container>

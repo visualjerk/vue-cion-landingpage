@@ -3,7 +3,9 @@
     secondary
     centered>
     <ds-container size="large">
-      <ds-space>
+      <ds-space
+        margin-top="large"
+        margin-bottom="x-large">
         <ds-logo inverse/>
       </ds-space>
       <ds-space
@@ -19,8 +21,8 @@
       </ds-space>
       <ds-space
         margin-top="x-large"
-        margin-bottom="xx-large">
-        <ds-text>created with ❤️ by visualjerk</ds-text>
+        margin-bottom="x-large">
+        <ds-text size="small">created with ❤️ by visualjerk</ds-text>
       </ds-space>
     </ds-container>
   </ds-section>

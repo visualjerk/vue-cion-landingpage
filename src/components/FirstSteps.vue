@@ -33,9 +33,9 @@
             </ds-list-item>
           </ds-list>
         </ds-space>
-        <ds-heading tag="h3">Design Tokens</ds-heading>
-        <ds-text size="large">Design Tokens define the look and feel of your design system at the most basic level.</ds-text>
-        <ds-text>To get a grasp of what Design Token are, open up <ds-code inline>src/system/tokens/font-size.yml</ds-code> in your editor.</ds-text>
+        <ds-heading tag="h3">Design tokens</ds-heading>
+        <ds-text size="large">Design tokens define the look and feel of your design system at the most basic level.</ds-text>
+        <ds-text>To get a grasp of what design tokens are, open up <ds-code inline>src/system/tokens/font-size.yml</ds-code> in your editor.</ds-text>
         <ds-text>As you can see, every font-size value is represented by a meaningful name. Instead of hardcoding values in your codebase you can just refer to the name of each token.</ds-text>
         <ds-text>Your styleguide will automatically list these tokens in the section "Design Tokens":</ds-text>
         <ds-space margin-bottom="base">
@@ -62,7 +62,7 @@
             style="max-width: 100%">
         </ds-space>
         <ds-text>Have a look at the examples inside <ds-code inline>src/system/tokens/_examples</ds-code> to get an idea of what is possible. You can try to overwrite the tokens in the main folder with those in the examples subfolders.</ds-text>
-        <ds-text>Now you can start to create your own design by adjusting the Design Tokens to your taste. <ds-text bold>Enjoy!</ds-text></ds-text>
+        <ds-text>Now you can start to create your own design by adjusting the design tokens to your taste. <ds-text bold>Enjoy!</ds-text></ds-text>
       </ds-container>
     </ds-section>
   </div>

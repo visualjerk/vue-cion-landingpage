@@ -13,7 +13,7 @@
         <ds-button
           size="small"
           path="https://styleguide.cion.visualjerk.de"
-          icon="desktop">Styleguide Demo</ds-button>&nbsp;
+          icon="desktop">Styleguide demo</ds-button>&nbsp;
         <ds-button
           size="small"
           path="https://github.com/visualjerk/vue-cion-design-system"

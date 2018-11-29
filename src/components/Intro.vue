@@ -7,14 +7,14 @@
       <ds-space>
         <ds-logo inverse/>
       </ds-space>
-      <ds-heading>Vue Design System<br>Boilerplate</ds-heading>
-      <ds-text size="large">CION is a design system build primarily for Vue applications. You can use it as a starting point for building your own Design System. The system utilizes design tokens, a living styleguide with integrated code playgrounds and reusable components for common UI tasks.</ds-text>
+      <ds-heading>Design system boilerplate<br>for Vue.js applications</ds-heading>
+      <ds-text size="large">CION is a design system build primarily for Vue.js applications. You can use it as a starting point for building your own design system. The system utilizes design tokens, a living styleguide with integrated code playgrounds and reusable components for common UI tasks.</ds-text>
       <ds-space
         margin-top="x-large"
         margin-bottom="xxx-large">
         <ds-button
           path="https://styleguide.cion.visualjerk.de"
-          icon="desktop">Styleguide Demo</ds-button>&nbsp;
+          icon="desktop">Styleguide demo</ds-button>&nbsp;
         <ds-button
           path="https://github.com/visualjerk/vue-cion-design-system"
           icon="github">GitHub</ds-button>
